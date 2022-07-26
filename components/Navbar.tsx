@@ -27,7 +27,7 @@ const navigation = [
 
 export const Navbar: React.FC = () => {
   return (
-    <div className="navbar items-center justify-between">
+    <div className="navbar items-center justify-between pt-4">
       {/* Mobile view */}
       <a className="btn btn-ghost h-auto w-auto">
         <Logo />

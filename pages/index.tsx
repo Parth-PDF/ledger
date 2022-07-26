@@ -2,6 +2,8 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
+import { Secondary } from '../components/Secondary';
+import { Swap } from '../components/Swap';
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
       <main className="bg-[#252525]">
         <Navbar />
         <Hero />
+        <Secondary />
+        <Swap />
       </main>
 
       <footer className="">
