@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 
 const Home: NextPage = () => {
@@ -12,8 +13,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="bg-[#252525]">
-        {/* Navbar */}
         <Navbar />
+        <Hero />
       </main>
 
       <footer className="">
