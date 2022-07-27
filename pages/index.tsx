@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { Grid } from '../components/Grid';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { Secondary } from '../components/Secondary';
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <Hero />
         <Secondary />
         <Swap />
+        <Grid />
       </main>
 
       <footer className="">

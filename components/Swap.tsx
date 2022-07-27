@@ -62,7 +62,7 @@ export const Swap: React.FC = () => {
                 <h3 className="leading-[45.6px] text-[38px] font-extrabold mb-4">
                   Motivation.
                 </h3>
-                <p className="tracking-[5%] leading-[25.2px] text-[21px] font-medium">
+                <p className="tracking-[0.05em] leading-[25.2px] text-[21px] font-medium">
                   No benefits for viewers, minimal exclusivity within creator
                   communities and lack of control over fanbase.
                 </p>
@@ -94,10 +94,10 @@ export const Swap: React.FC = () => {
                 <div className="absolute top-[-35.5%] right-[-15%]">
                   <img src="/screen-icon.png" alt="Screen Icon" />
                 </div>
-                <h3 className="leading-[45.6px] text-[38px] font-extrabold mb-4">
+                <h3 className="leading-[45.6px] text-[38px] font-extrabold mb-2">
                   Opportunity.
                 </h3>
-                <p className="tracking-[5%] leading-[25.2px] text-[21px] font-medium">
+                <p className="tracking-[0.05em] leading-[25.2px] text-[21px] font-medium">
                   Create monetary opportunities for both creators and viewers
                   and engage with your audiences in meaningful that incentivises
                   rewards.
@@ -159,7 +159,7 @@ export const Swap: React.FC = () => {
                   <p className="leading-[37.2px] text-[31px] font-bold">
                     Development
                   </p>
-                  <p className="tracking-[5%] leading-[25.2px] text-[21px] font-medium max-w-[219px]">
+                  <p className="tracking-[0.05em] leading-[25.2px] text-[21px] font-medium max-w-[219px]">
                     The Ledge Website and web appThe Ledge Website and web app
                   </p>
                 </div>
@@ -171,7 +171,7 @@ export const Swap: React.FC = () => {
                   <p className="leading-[37.2px] text-[31px] font-bold">
                     Development
                   </p>
-                  <p className="tracking-[5%] leading-[25.2px] text-[21px] font-medium max-w-[219px]">
+                  <p className="tracking-[0.05em] leading-[25.2px] text-[21px] font-medium max-w-[219px]">
                     The Ledge Website and web appThe Ledge Website and web app
                   </p>
                 </div>
@@ -184,7 +184,7 @@ export const Swap: React.FC = () => {
                 <p className="leading-[37.2px] text-[31px] font-bold">
                   Development
                 </p>
-                <p className="tracking-[5%] leading-[25.2px] text-[21px] font-medium max-w-[480px]">
+                <p className="tracking-[0.05em] leading-[25.2px] text-[21px] font-medium max-w-[480px]">
                   The Ledge Website and web appThe Ledge Website and web appThe
                   Ledge Website and web appThe Ledge Website and web app
                 </p>
