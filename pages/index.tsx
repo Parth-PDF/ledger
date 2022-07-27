@@ -4,6 +4,8 @@ import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { Secondary } from '../components/Secondary';
 import { Swap } from '../components/Swap';
+import { Footer } from '../components/Footer';
+import { JoinCommunity } from '../components/JoinCommunity';
 
 const Home: NextPage = () => {
   return (
@@ -19,9 +21,11 @@ const Home: NextPage = () => {
         <Hero />
         <Secondary />
         <Swap />
+        <JoinCommunity />
       </main>
 
       <footer className="">
+        <Footer />
       </footer>
     </div>
   )
