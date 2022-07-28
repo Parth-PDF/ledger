@@ -1,10 +1,11 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import { Grid } from '../components/Grid';
-import { Hero } from '../components/Hero';
-import { Navbar } from '../components/Navbar';
-import { Secondary } from '../components/Secondary';
-import { Swap } from '../components/Swap';
+import type { NextPage } from "next";
+import Head from "next/head";
+import { CreatorViewer } from "../components/CreatorViewer";
+import { Hero } from "../components/Hero";
+import { Navbar } from "../components/Navbar";
+import { Partners } from "../components/Partners";
+import { RoadMap } from "../components/RoadMap";
+import { Who } from "../components/Who";
 import { Footer } from '../components/Footer';
 import { JoinCommunity } from '../components/JoinCommunity';
 import { Featured } from '../components/Featured';
@@ -23,9 +24,10 @@ const Home: NextPage = () => {
       <main className="bg-[#252525]">
         <Navbar />
         <Hero />
-        <Secondary />
-        <Swap />
-        <Grid />
+        <Who />
+        <CreatorViewer />
+        <RoadMap />
+        <Partners />
         <WhereWereGoing />
         <FAQ />
         <Featured />
@@ -36,7 +38,7 @@ const Home: NextPage = () => {
         <Footer />
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

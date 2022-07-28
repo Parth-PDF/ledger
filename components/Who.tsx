@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-export const Secondary: React.FC = () => {
+export const Who: React.FC = () => {
   return (
     <div className="relative flex flex-col items-center min-h-[844px] text-[#FFFFFF]">
       <h2 className="lg:max-w-[777px] tracking-[-1%] leading-[69.6px] text-center text-[58px] font-extrabold p-4 lg:p-0 mb-24">
