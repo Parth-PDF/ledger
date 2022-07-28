@@ -3,19 +3,28 @@ const footerData = [
     label: 'Contact',
     icon: '/svgs/chat-bubbles.svg',
     width: '42',
-    height: '26'
+    height: '26',
+    onclick: () => {
+      window.open('mailto:email@example.com?subject=Subject');
+    }
   },
   {
     label: 'Opensea',
     icon: '/svgs/opensea.svg',
     width: '42',
-    height: '42'
+    height: '42',
+    onclick: () => {
+      window.open('https://opensea.io/');
+    }
   },
   {
     label: 'Looksrare',
     icon: '/svgs/looksrare.svg',
     width: '44',
-    height: '42'
+    height: '42',
+    onclick: () => {
+      window.open('https://looksrare.org/');
+    }
   }
 ];
 
@@ -30,7 +39,7 @@ export const Footer: React.FC = () => {
             <div>
               <img src={item.icon} alt={item.label} width={item.width} height={item.height} />
             </div>
-            <div>
+            <div onClick={item.onclick}>
               <img src='/svgs/footer-arrow.svg' />
             </div>
           </div>

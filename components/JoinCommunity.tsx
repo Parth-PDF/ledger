@@ -9,27 +9,28 @@ export const JoinCommunity: React.FC = () => {
     <div className="min-h-[400px] text-white flex justify-center">
       {/* desktop view */}
       <div className="hidden lg:block">
-        <div className="flex gap-x-12">
+        <div className="flex gap-x-12 mb-[-35px]">
           <span className="uppercase text-[100px] font-black tracking-[-0.01em] leading[115px]">join our growing</span>
           <img src="/svgs/chat-bubbles.svg" width="139" height="187" />
         </div>
         <div className="flex gap-x-20">
           <span className="uppercase text-[100px] text-[#FFC46B] font-black tracking-[-0.01em] leading[115px]">community</span>
-          <div className="relative h-[83px] self-center">
+          <div className="relative h-[83px] self-center mt-6">
             <ul className="relative h-full menu menu-horizontal z-10 bg-base-100 px-8 border-2 border-[#18191F] rounded-full uppercase tracking-wider leading-5 text-sm font-bold">
               <li>
-                <a>
-                  <DiscordIcon />
+                <a >
+                  <img src='/svgs/discord-lg.svg' />
                 </a>
               </li>
               <li>
                 <a>
-                  <TwitterIcon />
+                  <img src='/svgs/twitter-lg.svg' />
                 </a>
               </li>
               <li>
                 <a>
-                  <OpenSeaIcon />
+                <img src='/svgs/opensea-lg.svg'/>
+
                 </a>
               </li>
             </ul>

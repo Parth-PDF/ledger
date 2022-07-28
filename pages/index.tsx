@@ -7,6 +7,9 @@ import { Secondary } from '../components/Secondary';
 import { Swap } from '../components/Swap';
 import { Footer } from '../components/Footer';
 import { JoinCommunity } from '../components/JoinCommunity';
+import { Featured } from '../components/Featured';
+import { FAQ } from '../components/FAQ';
+import { WhereWereGoing } from '../components/WhereWereGoing';
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +26,9 @@ const Home: NextPage = () => {
         <Secondary />
         <Swap />
         <Grid />
+        <WhereWereGoing />
+        <FAQ />
+        <Featured />
         <JoinCommunity />
       </main>
 
