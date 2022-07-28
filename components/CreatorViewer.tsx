@@ -23,7 +23,7 @@ const textBubbleRight = {
   backgroundRepeat: "no-repeat",
 };
 
-export const Swap: React.FC = () => {
+export const CreatorViewer: React.FC = () => {
   const [activeButton, setActiveButton] = useState(buttons[0]);
   return (
     <div className="relative flex flex-col items-center lg:min-h-[1041px] text-[#FFFFFF] mt-36 lg:mt-0">
